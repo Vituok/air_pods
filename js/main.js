@@ -15,3 +15,4 @@ chooseColor.forEach(function(item){
 
     target.classList.add('choose__color-btn--active')
 }
+console.log('Hello world')
