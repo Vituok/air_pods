@@ -23,5 +23,6 @@ function open(evt){
 
     contentActive.forEach(function(item){
         item.classList.add('content-item__active')
+        window.scrollTo({ top: 0, behavior: "smooth" });
     })
 }

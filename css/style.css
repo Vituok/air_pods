@@ -390,4 +390,9 @@ align-items: flex-end;
 @media(max-width: 404px) {
 .title{font-size: 50px;}
 }
- 
+
+@media(max-width: 559px) {
+    .choose__color-btn {
+        border: none;
+        padding: 0px 0px;
+    }};
